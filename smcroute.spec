@@ -14,6 +14,8 @@ BuildRequires: make
 BuildRequires: pkgconf-pkg-config
 BuildRequires: libcap-devel
 BuildRequires: git
+BuildRequires: systemd
+BuildRequires: systemd-devel
 
 %description
 SMCRoute is a static multicast routing daemon providing fine grained control
