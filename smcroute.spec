@@ -1,5 +1,5 @@
 Name: smcroute
-Version: 2.5.4
+Version: 2.5.5
 Release: 1%{?dist}
 Summary: A static multicast routing daemon
 
@@ -43,5 +43,8 @@ over the multicast forwarding cache (MFC) in the UNIX kernel.
 %{_unitdir}/smcroute.service
 
 %changelog
+* Tue Mar 29 2022 Hangbin Liu <haliu@redhat.com> - 2.5.5-1
+- Update to 2.5.5
+
 * Tue Mar 29 2022 Hangbin Liu <haliu@redhat.com> - 2.5.4-1
 - Init version
